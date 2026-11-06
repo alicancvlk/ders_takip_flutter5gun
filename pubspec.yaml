@@ -1,0 +1,19 @@
+name: platform_channel
+description: Flutter MethodChannel ve EventChannel ile Android Bluetooth ve cihaz bilgisi örneği.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.13.7 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
